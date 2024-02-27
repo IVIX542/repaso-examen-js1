@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcion</title>
+    <style>
+        body{
+            background-color: black;
+            color: antiquewhite;
+            font-size: larger;
+        }
+        form{
+            background-color: rgba(127, 255, 212, 0.411);
+
+            padding-top: 25vh;
+            margin-top: 10vh;
+
+            padding-bottom: 25vh;
+            margin-bottom: 10vh;
+
+            padding-left: 30vw;
+            margin-left: 15vw;
+
+            padding-right: 30vh;
+            margin-right: 15vh;
+
+            border-radius: 20px;
+        }
+        input{
+            background-color: rgba(0, 0, 0, 0.15);
+            color: aliceblue;
+            border-color: greenyellow;
+            border-radius: 5px;
+        }
+        button{
+            background-color: rgba(0, 0, 0, 0.15);
+            color: aliceblue;
+            border-color: greenyellow;
+            border-radius: 5px;
+            margin-left: 3vw;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="letra">Letra</label>
+        <input type="text" name="letra" id="letra">
+
+        <br><br>
+
+        <label for="num">Número</label>
+        <input type="text" name="num" id="num">
+        
+        <br><br>
+
+        <button type="button" onclick="buscar()">BUSCAR</button>
+        <button type="reset" onclick="borrar()">BORRAR</button>
+        
+        <br><br>
+
+        <p id="no"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
