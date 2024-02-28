@@ -65,6 +65,7 @@ function buscar(){
 
     if(x == tabla.length){
         document.getElementById("no").innerHTML = "Letra no encontrada, vuelva a escribirla.";
+        document.getElementById("num").value = "";
     }
 
 }
